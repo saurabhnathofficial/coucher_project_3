@@ -1,0 +1,478 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+html body {
+    background-color: black;
+}
+
+#main {
+    min-height: 100vh;
+    width: 90%;
+    margin: auto;
+    padding: 0px 10px;
+    background-color: #000;
+    color: #fff;
+    font-family: "Noto Sans";
+    text-transform: uppercase;
+}
+
+#nav {
+    height: 100px;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    border-bottom: 2px solid #ffffff86;
+}
+
+#nav i {
+    display: none;
+}
+
+.logo h2 {
+    font-size: 2.5vw;
+    letter-spacing: 2px;
+
+}
+
+.logo span {
+    font-size: 3.6vw;
+    font-weight: 900;
+    color: #00CCA0;
+}
+
+.menu {
+    display: flex;
+    gap: 22px;
+}
+
+.menu h4 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn :nth-child(2) {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 5px 7px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.btn h4 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#home-page {
+    height: 80vh;
+}
+
+#content {
+    height: calc(100% - 100px);
+    /* background-color: antiquewhite; */
+    text-transform: uppercase;
+}
+
+#text-content {
+    height: 100%;
+    width: 100%;
+    /* background-color: yellowgreen; */
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#text-content .left-content {
+    height: 90%;
+    width: 45%;
+    position: relative;
+    /* background-color: red; */
+}
+
+#text-content .left-content h2 {
+    font-size: 85px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 90px;
+    /* margin: 0px 20px; */
+}
+
+#text-content .left-content h2 span img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    margin-top: 5px;
+    border: 4px solid #fff;
+}
+
+/* #text-content .left-content h2 span:nth-child(1){
+    object-position: top;
+} */
+.left-content-bottom {
+
+    width: 100%;
+    height: 20%;
+    border-top: 2px solid #ddd4d4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+}
+
+.left-content-bottom h4 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.right-content {
+    height: 100%;
+    width: 45%;
+    background-color: #00CCA0;
+    border-radius: 20px;
+    background-position: center;
+    background-image: url(https://cdn.pixabay.com/photo/2018/07/29/23/05/woman-3571298_1280.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+.right-content h2 {
+    display: inline-block;
+    width: 20%;
+    /* background-color: rebeccapurple; */
+    font-weight: 500;
+    position: absolute;
+    top: 7%;
+    left: 6%;
+    color: #000;
+}
+
+.right-content .rightgola {
+    height: 44px;
+    width: 110px;
+    font-size: 1.4em;
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px 0px 0px 30px;
+    display: flex;
+    align-items: center;
+    right: 0;
+    position: absolute;
+    justify-content: center;
+}
+
+.right-content .bottom {
+    height: 10%;
+    position: absolute;
+    width: 72%;
+    /* background-color: red; */
+    border: 2px solid #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    bottom: 5%;
+    left: 9%;
+    padding: 1px 32px;
+
+}
+
+.right-content .bottom i {
+    font-size: 20px;
+}
+
+section {
+    height: 40vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    padding-bottom: 25px;
+}
+
+section .skills {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+section .skills h2 {
+    font-size: 28px;
+    font-weight: 600;
+    margin: 10px;
+
+}
+
+section .skills .branding {}
+
+section .skills .branding p {
+    display: inline-block;
+    /* width: 50%; */
+    border: 2px solid #fff;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+section .cards {
+    height: 100%;
+    width: 70%;
+    /* background-color: #07a996; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+section .card {
+    height: 90%;
+    width: 30%;
+    position: relative;
+    border-radius: 30px 0px 30px 30px;
+    background-color: #FD5E09;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+section .card h2 {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+
+
+
+section .card .top-right {
+    height: 43px;
+    width: 99px;
+    border-radius: 30px 22px 0px 0px;
+    background-color: #FD5E09;
+    position: absolute;
+    right: 0;
+    top: -7%;
+}
+section .card1 h2 i {
+    font-size: 40px;
+}
+section .cards .card2 {
+    background-color: #E0E0E0;
+}
+
+section .cards .card2 p {
+    color: #000;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10%;
+    width: 70%;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+section .cards .card2 .top-right {
+    background-color: #E0E0E0;
+
+}
+
+section .cards .card3 {
+    background-color: #FDC959;
+
+}
+
+section .cards .card3 h2 {
+
+    font-size: 20px;
+
+}
+
+section .cards .card3 p {
+    color: #000;
+    font-size: 67px;
+    margin-bottom: 10%;
+}
+
+section .cards .card3 .top-right {
+    background-color: #FDC959;
+
+}
+
+@media (max-width: 600px) {
+
+
+    #nav {
+        height: 80px;
+        width: 100%;
+    }
+
+    #nav i {
+        display: initial;
+        font-size: 1.7em;
+    }
+
+    .logo h2 {
+        font-size: 5vw;
+    }
+
+    .logo span {
+        font-size: 6.6vw;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    #home-page {
+        height: 100vh;
+    }
+
+    #content {
+        height: calc(100% - 80px);
+    }
+
+    #text-content {
+        flex-direction: column;
+        gap: 8vh;
+        margin-top: 10%;
+    }
+
+    #text-content .left-content {
+        height: 90%;
+        width: 100%;
+        position: relative;
+    }
+
+    #text-content .left-content h2 {
+        font-size: 6vh;
+        font-weight: 400;
+        letter-spacing: 1px;
+        line-height: 7vh;
+    }
+
+    #text-content .left-content h2 span img {
+        height: 5vh;
+        width: 5vh;
+        margin-top: 8px;
+    }
+
+    .left-content-bottom h4 {
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        color: #ffffffc4;
+    }
+
+    .right-content {
+        height: 100%;
+        width: 100%;
+    }
+
+    .right-content h2 {
+        font-size: 16px;
+    }
+
+    .right-content .rightgola {
+        height: 40px;
+        width: 80px;
+        font-size: 1.3em;
+    }
+
+    .right-content .bottom {
+        left: 4.6%;
+    }
+
+    section {
+        height: 100%;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    section .skills {
+        height: 100%;
+        width: 100%;
+        /* background-color: red; */
+        flex-direction: column;
+    }
+
+    section .skills h2 {
+        font-size: 4vh;
+        font-weight: 600;
+        margin: 10px;
+        border-bottom: 2px solid #ffffffb2;
+        width: 45%;
+    }
+
+    section .skills .branding p {
+        width: 70%;
+        font-size: 3vw;
+    }
+
+    section .cards {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+        margin-bottom: 25%;
+        margin-top: 5%;
+        
+    }
+
+    section .cards::-webkit-scrollbar{
+        background-color: transparent;
+        height: 4px;
+    }
+    section .cards::-webkit-scrollbar-thumb{
+        background-color: #fff;
+    
+
+    }
+       
+
+    section .card {
+        height: 100%;
+        width: 70%;
+        flex-shrink: 0;
+        border-radius: 45px 0px;   
+    }
+    section .card .top-right{
+        display: none;  
+    }
+
+    section .card h2 {
+        margin: 20px;
+        font-size: 20px;
+        font-weight: 600;
+        z-index: 9;
+    }
+
+    section .card h2 i {
+        font-size: 40px;
+    }
+   
+}
